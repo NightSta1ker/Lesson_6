@@ -1,0 +1,419 @@
+@import "null.css";
+@import "fonts.css";
+/* -----------------------------------Произвольная домашка----------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content-poligon {
+	max-width: 1350px;
+	margin: 0 auto 200px;
+}
+.head {
+	margin-bottom: 20px;
+}
+.poligon {
+	font-size: 20px;
+}
+.content-poligon h1 {
+	font-family: "Noto Serif Display", serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 50px;
+	letter-spacing: 50px;
+	text-align: center;
+	color: rgb(27, 194, 194);
+	text-shadow: 2px 2px 5px blueviolet;
+}
+.content-poligon h2 {
+	font-family: "CinzelDecorative-B";
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 20px;
+	color: rgb(6, 102, 71);
+	text-shadow: 8px 8px 3px rgba(7, 46, 97, 0.8);
+	margin-bottom: 20px;
+}
+.content-poligon h3 {
+	font-family: "Cinzel-B";
+	font-weight: 900;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 15px;
+	color: brown;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	margin-bottom: 20px;
+}
+span {
+	color: red;
+}
+a {
+	color: blue;
+}
+.first {
+	margin-bottom: 20px;
+}
+.first-block-text {
+	margin-bottom: 20px;
+}
+.first-block-text p {
+	font-family: "Roboto Serif", sans-serif;
+	padding: 0 20px;
+	margin-bottom: 20px;
+	text-indent: 15px;
+	text-align: justify;
+	line-height: 1.25;
+}
+.first-next-text + p {
+	text-align: center;
+	font-size: 18px;
+	text-indent: 0;
+	text-transform: lowercase;
+	color: brown;
+	word-spacing: 15px;
+}
+.first-next-text {
+	font-size: 18px;
+	outline: 5px dashed rgb(61, 0, 0);
+}
+.first-block-text > p > span {
+	text-decoration: line-through;
+	color: chocolate;
+	font-size: 24px;
+	font-family: "PermanentMarker";
+	border-bottom: 3px dotted teal;
+}
+.first-block-text > p + span {
+	color: rgb(54, 54, 212);
+	font-size: 25px;
+	outline: 5px dotted blue;
+	opacity: 0.5;
+	text-decoration: overline;
+}
+.first-block-text span {
+	text-decoration: line-through;
+	color: rgb(0, 139, 30);
+}
+
+.first-block-text a {
+	padding: 20px;
+	display: inline-block;
+	margin-top: 15px; /* В данном случае не могу отталкиваться от строчных тегов, не меняя ничего. */
+	box-shadow: inset 0px 0px 5px 3px rgb(8, 44, 112);
+	border-radius: 50%;
+	color: rgb(4, 139, 94);
+}
+.first-block-second-text {
+	max-width: 800px;
+	margin: 0 auto 20px;
+	font-family: "lato";
+	line-height: 1.25;
+	padding: 20px;
+}
+.first-block-second-text p {
+	margin-bottom: 15px;
+}
+.first-block-hidden {
+	overflow: hidden;
+	height: 35px;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 1px 1px rgb(12, 112, 241);
+}
+.first-block-scroll {
+	margin: 0 auto;
+	max-width: 50%;
+	overflow: auto;
+	max-height: 80px;
+	text-align: justify;
+	padding: 10px;
+	box-shadow: 0px 0px 20px 2px green;
+	text-transform: lowercase;
+	text-shadow: 3px 2px 3px rgba(31, 22, 156, 0.5);
+}
+.first-block-horizontal-scroll {
+	border: 10px double rgb(204, 4, 154);
+	color: rgb(2, 125, 129);
+	text-shadow: -3px 2px 3px rgb(0, 187, 255);
+	max-height: 300px;
+	white-space: nowrap;
+	overflow: auto;
+	padding: 5px;
+}
+.first-block-img {
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto 20px;
+	border-radius: 50%;
+	outline: 10px dashed rgba(20, 103, 197, 0.5);
+}
+.first-block-third-text {
+	border: 100px solid rgba(8, 153, 163, 0.507);
+}
+.first-block-third-text p {
+	padding: 15px;
+	margin-bottom: 20px;
+	font-family: "Cinzel";
+	text-shadow: 2px 2px 2px green;
+	box-shadow: -5px -5px 20px 2px blueviolet;
+}
+.first-block-third-text a {
+	opacity: 0;
+}
+.first-list {
+	font-family: "Dancing Script";
+	font-weight: 700;
+	border: 2px solid yellow;
+	padding-left: 10px;
+	text-transform: uppercase;
+	text-shadow: 2px -2px 1px lightslategrey;
+}
+.first-sublist {
+	border: 2px solid blueviolet;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	box-shadow: inset 1px 1px 10px 10px rgba(7, 216, 111, 0.253), 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+		-7px -5px 15px 5px #8cff85, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.second {
+	margin-bottom: 20px;
+	/* Тут padding-bottom дал, что бы контент (а именно .second-block) не вылезал.
+	 Не знаю, правильно или нет, если не правильно дайте пожалуйста знать! Спасибо!*/
+	padding-bottom: 5px;
+}
+.second-img {
+	padding: 30px;
+	margin: 0 0 40px auto;
+	max-width: 800px;
+	max-height: 500px;
+	overflow: auto;
+	border: 5px solid rgba(46, 4, 235, 0.719);
+	box-shadow: inset 2px 2px 2px 2px #1c6ea4, inset 11px 11px 2px 0px #2285c7, inset 20px 20px 2px 1px #289dea,
+		inset 29px 29px 2px 1px #57bbea, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.second-img img {
+	margin: 0 auto;
+	display: block;
+	padding: 30px;
+	border: 1px solid #000;
+	box-shadow: inset 0px 0px 3px 3px rgb(32, 32, 209), inset 0px 0px 6px 6px rgb(0, 255, 85),
+		inset 0px 0px 9px 9px rgb(0, 195, 255), inset 0px 0px 12px 12px rgb(154, 218, 4);
+}
+.second-img p {
+	font-family: "Noto Serif Display";
+	font-weight: 300;
+	text-align: center;
+	text-decoration: line-through;
+	line-height: 1.5;
+	padding: 15px;
+}
+.second-block {
+	padding: 25px;
+	margin: 0 auto;
+	max-width: 1200px;
+	box-shadow: 0px 0px 0px 5px #a0a0a0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #a31925,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.second-block p {
+	margin: 0 auto 50px;
+	max-width: 400px;
+	color: white;
+	text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px,
+		#ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+	border-radius: 20%;
+	overflow: hidden;
+	outline: 5px solid rgb(248, 0, 236);
+	border: 5px solid rgb(0, 195, 255);
+	line-height: 1.25;
+}
+.second-block ol {
+	display: inline-block;
+	padding-left: 10px;
+	border: 8px dashed rgb(34, 136, 3);
+	border-bottom: 8px dotted blueviolet;
+	text-transform: capitalize;
+	color: deepskyblue;
+	line-height: 1.25;
+}
+.row {
+	box-shadow: inset 4px -4px 15px 0px #ff1f1f, inset 12px -11px 7px 0px #ff9376, inset 20px -5px 7px 0px #ffe264,
+		inset 20px 6px 7px 0px #f6ff33, inset 13px 12px 17px 0px #ff9527, inset 2px 17px 17px 0px #ff0000,
+		inset -9px 21px 18px 0px #fff212, inset -9px 6px 11px 0px #ff0808, inset -11px -9px 11px 0px #fffa17,
+		inset -11px -9px 11px 0px #fffa17, inset 5px 5px 15px 5px rgba(255, 101, 156, 0);
+	margin-bottom: 10px;
+	padding: 10px 65px;
+}
+.third {
+	display: inline-block;
+	border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+	max-width: 600px;
+	max-height: 500px;
+	overflow: auto;
+	box-shadow: -9px 5px 15px 5px #ffe488, -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+		12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b, -10px -7px 27px 1px #8e5cff,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: -7px -5px 10px 0px #4b0082, -11px -9px 10px 0px rgba(23, 23, 209, 0.493), -16px -14px 10px 0px #00ff00,
+		-20px -17px 10px 0px #ffff00, -24px -19px 10px 0px #ff7f00, -27px -23px 10px 0px #ff0000,
+		-5px 5px 15px 5px rgba(0, 0, 0, 0);
+	margin-right: 10px;
+}
+.third-block {
+	font-family: "Roboto Serif";
+	font-weight: 900;
+	line-height: 1.25;
+	color: #1c6ea4;
+}
+.third-block img {
+	display: block;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.third-block a {
+	border-bottom: 3px solid green;
+}
+.fourth {
+	padding-left: 20px;
+	display: inline-block;
+	border-radius: 0% 100% 100% 0% / 100% 100% 0% 0%;
+	max-width: 600px;
+	max-height: 500px;
+	overflow: auto;
+	box-shadow: 7px -5px 10px 0px #4b0082, 11px -9px 10px 0px rgba(23, 23, 209, 0.493), 16px -14px 10px 0px #00ff00,
+		20px -17px 10px 0px #ffff00, 24px -19px 10px 0px #ff7f00, 27px -23px 10px 0px #ff0000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.fourth-block {
+	text-indent: 20px;
+	line-height: 1.25;
+	font-family: "Dancing Script";
+	font-weight: 500;
+}
+.fourth-list {
+	padding-left: 20px;
+	border: 2px solid yellow;
+}
+.fourth-img img {
+	border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+	overflow: hidden;
+}
+.second-row {
+	padding: 10px 65px;
+	box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(255, 101, 156, 0);
+}
+.fifth {
+	font-family: "PermanentMarker";
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
+	overflow: auto;
+	max-width: 600px;
+	max-height: 500px;
+	box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.fifth-block {
+	line-height: 1.25;
+}
+.fifth-img {
+	border: 1px solid rgb(0, 247, 255);
+	border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+	overflow: hidden;
+}
+
+.fifth h3 {
+	text-align: right;
+}
+.sixth {
+	font-family: "CinzelDecorative-B";
+	font-weight: 700;
+	display: inline-block;
+	border-radius: 100% 0% 100% 0% / 0% 0% 100% 100%;
+	overflow: auto;
+	max-width: 600px;
+	max-height: 500px;
+	box-shadow: -9px 5px 15px 5px #ffe488, -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+		12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b, -10px -7px 27px 1px #8e5cff,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	line-height: 1.25;
+	padding: 10px 5px;
+}
+.sixth-block {
+	font-family: "Cinzel";
+	margin-bottom: 10px;
+}
+.sixth-img {
+	outline: 5px dashed darkcyan;
+}
+/* -----------------------------------Макет из Figma----------------------------------- */
+
+.content-figma {
+	max-width: 1025px;
+	margin: 0 auto;
+}
+.figma-head {
+	margin-bottom: 224px;
+}
+.figma-head h2 {
+	font-family: "CircularStd-Medium";
+	font-weight: 500;
+	font-size: 65px;
+	line-height: 82px;
+	text-align: center;
+	color: #313131;
+	margin-bottom: 20px;
+}
+.figma-head p {
+	font-family: "CircularStd-Book";
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #5f5f5f;
+}
+.figma-review {
+	margin-bottom: 125px;
+}
+.figma-review h3 {
+	font-family: "CircularStd-Bold";
+	font-weight: 700;
+	font-size: 34px;
+	text-align: left;
+	color: #313131;
+	opacity: 0.88;
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+.figma-review p {
+	font-family: "CircularStd-Book";
+	font-size: 18px;
+	line-height: 1.55;
+	color: #5f5f5f;
+}
+.figma-img-name {
+	font-family: "CircularStd-Bold";
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #313131;
+	opacity: 0.88;
+	margin-bottom: 5px;
+}
+.figma-img-position {
+	font-family: "CircularStd-Book";
+	font-size: 18px;
+	line-height: 1.3;
+	color: #b8b8b8;
+}
+.name-position-block {
+	margin-bottom: 20px;
+}
+.figma {
+	margin-bottom: 50px;
+}
+footer p {
+	font-size: 30px;
+	text-align: center;
+	font-family: "Redressed", cursive;
+}

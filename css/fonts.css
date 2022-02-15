@@ -1,0 +1,70 @@
+/* &display=swap */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+/* Из Google Fonts */
+
+/* font-family: 'Roboto Serif', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,900;1,400&display=swap");
+
+/* С помощью F1 задан текст */
+
+/* font-family: 'Dancing Script', cursive; */
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:500,700&display=swap");
+
+/* font-family: 'Noto Serif Display', serif; */
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+Display:300,regular,600italic&display=swap");
+
+@font-face {
+	font-family: "Cinzel";
+	src: url("../fonts/Cinzel-Regular.woff2") format("woff2"), url("../fonts/Cinzel-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CinzelDecorative-B";
+	src: url("../fonts/CinzelDecorative-Bold.woff2") format("woff2"),
+		url("../fonts/CinzelDecorative-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Cinzel-B";
+	src: url("../fonts/Cinzel-Black.woff2") format("woff2"), url("../fonts/Cinzel-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PermanentMarker";
+	src: url("../fonts/PermanentMarker-Regular.woff2") format("woff2"),
+		url("../fonts/PermanentMarker-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd-Book";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd-Medium";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd-Bold";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
